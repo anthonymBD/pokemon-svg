@@ -1,0 +1,60 @@
+
+body{color:orange;}
+    h3 {color:black;}
+
+
+    body,html{height:100%;
+        margin:0;padding:0;
+        }
+        
+        body{color:orange;}
+            h3 {color:black;} 
+            
+        body{width:100%;
+        display:grid;
+        grid-template-columns:auto;}
+        
+        
+        svg{width:100%;
+        align-self:center;
+        justify-self: center;}
+        
+         #arm{
+            animation-duration: 1.5s;
+            animation-name: snorlax;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            
+        }
+        
+        @keyframes snorlax {
+            from{
+                transform: translateX(-21px) translateY(-23px);
+            
+        
+            
+            }
+        to {
+            transform:translateX(-29px) translateY(-23px);
+            transform: skewY(9deg);
+            transform: skewX(1deg);
+         
+        
+        }
+        }
+        
+        
+        .st0,  .st5{fill:#006A6B;}
+        .st2,.st14,.st11, .st12, .st20, .st18 {fill:#005554;}
+        .st3,.st25 {fill:#000;}
+        .st4{fill:#FDE9BE;}
+        .st6{fill:#DAC9A3;}
+        .st7{fill:#FEFEFE;}
+        .st1, .st8,.st9, .st10, .st11, .st7, .st26,.st24, .st27{fill:#FDFEFE;}
+
+        .st13,.st15, .st16, .st16, .st17, .st19,.st21,.st22,.st23 {fill:#DADADB;}
+     
+    
+        .st28{fill:#75491B;}
+        .st29,.st30{fill:#5B380B;}
+       
